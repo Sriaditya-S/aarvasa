@@ -78,6 +78,7 @@
     padding: 1rem; /* Reduce padding for compact layout */
     gap: 10px; /* Add spacing between wrapped items */
     margin: 0 auto;
+    align-items: center;
   }
 
   .logon {
@@ -86,7 +87,7 @@
     margin-bottom: 10px; /* Space below the logo */
   }
 
-  .logon-image {
+  .logon-image {    
     width: 80px; /* Shrink the logo for smaller devices */
     transform: none; /* Center the logo */
   }
@@ -104,7 +105,7 @@
 
   .profnav {
     flex: 1;
-    justify-content: flex-end; /* Align profile icons to the right */
+    justify-content: center; /* Align profile icons to the right */
     transform: none;
   }
 
@@ -112,37 +113,5 @@
     width: 25px; /* Shrink icons for smaller screens */
     height: 25px;
   }
-
-  /* Add dropdown behavior for 4 items */
-  .menu {
-    flex-direction: column; /* Stack menu items vertically */
-    align-items: center;
-    display: none; /* Hidden by default */
-  }
-
-  .menu.show {
-    display: flex; /* Show when toggled */
-  }
-
-  /* Hamburger Menu for toggle */
-  .hamburger {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    cursor: pointer;
-  }
-
-  .hamburger span {
-    width: 25px;
-    height: 3px;
-    background-color: black;
-    border-radius: 3px;
-    transition: transform 0.3s;
-  }
-
-  .hamburger:hover span {
-    background-color: #7c4d4d;
-  }
 }
 /* End of Navbar Styling */
-

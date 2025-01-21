@@ -26,7 +26,7 @@ const Services = () => {
         </div>
       </div>
       <div >
-        <img src="/services/homesweethome.png" alt="home"></img>
+        <img src="/homesweethome.png" alt="home"></img>
         </div>  
      </div>
      <div>
@@ -50,32 +50,32 @@ const Services = () => {
       <ServicesCardComp
       heading="Comprehensive Consultancy Services :"
       text="Comprehensive Consultancy Services refers to a broad range of advisory and support services provided to businesses, organizations, or individuals. These services typically cover multiple ..."
-      imageSrc="/Services/consultancy.jpeg"
+      imageSrc="/consultancy.jpeg"
       />
       <ReverseServices
       heading="AR/VR Property Tours :"
       text="AR/VR Property Tours use Augmented Reality and Virtual Reality technologies to create immersive, interactive experiences for viewing properties. These tools are becoming increasingly popular in real estate as they allow ..."
-      imageSrc="/Services/arvr.png"
+      imageSrc="/arvr.png"
       />
       <ServicesCardComp
       heading="Flexible Payment Models :"
       text="Flexible Payment Models refer to various payment structures that offer clients or customers the ability to pay for goods or services in ways that suit their financial situation or preferences. These models provide greater..."
-      imageSrc="/Services/paymentmodel.png"
+      imageSrc="/paymentmodel.png"
       />
       <ReverseServices
       heading="AI Powered Personalization :"
       text="AI-Powered Personalization refers to the use of artificial intelligence (AI) to tailor products, services, content, or experiences to individual users based on their preferences, behaviors, and interactions. AI analyzes large ..."
-      imageSrc="/Services/aipowered.png"
+      imageSrc="/aipowered.png"
       />
       <ServicesCardComp
       heading="Blockchain-Backed Transactions :"
       text="Blockchain-Backed Transactions refer to transactions that are recorded, verified, and secured using blockchain technology. Blockchain is a decentralized, distributed ledger system that..."
-      imageSrc="/Services/blockchain.png"
+      imageSrc="/blockchain.png"
       />
       <ReverseServices
       heading="Monetization of Existing Properties :"
       text="Monetization of Existing Properties refers to the process of generating income or financial value from assets or real estate that are already owned, rather than developing new ones. "
-      imageSrc="/Services/monetization.png"
+      imageSrc="/monetization.png"
       />
      </div>
      <h4 class="serWhatclients">What Our Clients Say</h4>
@@ -95,7 +95,7 @@ const Services = () => {
     <section className="serviceserconsultation">
   <div className="servicesercontent">
     <div className="serviceserimage">
-      <img src="/Services/scheduleconsulatance.png" alt="House Image" />
+      <img src="/scheduleconsulatance.png" alt="House Image" />
     </div>
     <div className="serviceserform-container">
       <form>

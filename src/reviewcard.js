@@ -18,11 +18,11 @@ const ReviewCard =() =>{
             </div>
             <div class="revlowerpart">
                 <div class="revrating">
-                    <img src="/Services/star.png" alt="star"/>
-                    <img src="/Services/star.png" alt="star"/>
-                    <img src="/Services/star.png" alt="star"/>
-                    <img src="/Services/star.png" alt="star"/>
-                    <img src="/Services/star.png" alt="star"/>
+                    <img src="/star.png" alt="star"/>
+                    <img src="/star.png" alt="star"/>
+                    <img src="/star.png" alt="star"/>
+                    <img src="/star.png" alt="star"/>
+                    <img src="/star.png" alt="star"/>
 
                 </div>
                 <h4 class="revtime"> 1 month ago</h4>

@@ -85,8 +85,9 @@ return (
 
 
 {/* USP Section */}
-<section className="usp">
-  <h2>We’ve got properties for everyone</h2>
+
+  <div classname = "usp-header"><h2>We’ve got properties for everyone</h2></div>
+  <section className="usp">
   <div className="usp-stats">
     <div className="stat-item">
       <img src="/image.png" alt="Owner Properties" />
@@ -261,9 +262,10 @@ return (
 
 
       {/* Projects */}
+      
+      <h3>Best Projects of the Years</h3>
+      <div className="project-header"><h2>Our Recent Projects</h2></div>
       <section className="projects">
-        <h3>Best Projects of the Years</h3>
-        <h2>Our Recent Projects</h2>
         <div className="project-cards">
           <div className="project-card">
             <div className="project-image">

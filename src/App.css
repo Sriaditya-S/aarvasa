@@ -100,15 +100,7 @@ body {
   }
 }
 
-
-/* USP Section Styling */
-.usp {
-  text-align: center;
-  padding: 50px 0;
-  background-color: #F5F0E1;
-}
-
-.usp h2 {
+.usp-header h2 {
   position: relative; /* Position relative to add the custom line */
   margin-top: 28px; /* Remove unnecessary space above */
   margin-bottom: 8px; /* Add spacing below the header */
@@ -119,7 +111,7 @@ body {
   transform: translateX(+15px);
 }
 
-.usp h2::after {
+.usp-header h2::after {
   content: ""; /* Empty content for the custom line */
   display: block;
   width: 50px; /* Width of the line, matching the "Our" text length */
@@ -127,6 +119,13 @@ body {
   background-color: #6C1E3C; /* Line color */
   border-radius: 5px;
   margin-top: 5px; /* Space between the text and the line */
+}
+
+/* USP Section Styling */
+.usp {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #F5F0E1;
 }
 
 .usp-stats {
@@ -351,6 +350,27 @@ body {
   font-weight: normal;
 }
 
+.project-header h2 {
+  position: relative; /* Position relative to add the custom line */
+  margin-top: 28px; /* Remove unnecessary space above */
+  margin-bottom: 8px; /* Add spacing below the header */
+  font-size: 2rem; /* Adjust font size as needed */
+  text-align: left; /* Align text to the left */
+  text-decoration: none; /* Remove any text underline */
+  border: none; /* Remove any extra border */
+  transform: translateX(+15px);
+}
+
+.project-header h2::after {
+  content: ""; /* Empty content for the custom line */
+  display: block;
+  width: 50px; /* Width of the line, matching the "Our" text length */
+  height: 4px; /* Thickness of the line */
+  background-color: #6C1E3C; /* Line color */
+  border-radius: 5px;
+  margin-top: 5px; /* Space between the text and the line */
+}
+
 .projects h2 {
   transform: translateX(+20px);
   position: relative; /* Position relative to add the custom line */
@@ -426,6 +446,7 @@ body {
 .project-text p {
   font-size: 1rem;
   margin-bottom: 10px;
+  
 }
 
 .project-text span {
@@ -1028,18 +1049,6 @@ body {
     background-color: #F5F0E1; /* Keep the background color */
   }
 
-  .projects h2 {
-    font-size: 1.5rem; /* Reduce font size */
-    transform: translateX(-40px); /* Adjust translation for smaller screens */
-    margin-bottom: 15px; /* Reduce space below the header */
-  }
-
-  .projects h2::after {
-    width: 30px; /* Shorten the line to match smaller text */
-    height: 3px; /* Slightly thinner line */
-    margin-top: 3px; /* Reduce spacing between text and line */
-  }
-
   .projects h3 {
     font-size: 1rem; /* Smaller h3 font size */
     margin-bottom: 3px; /* Reduce space below h3 */
@@ -1069,8 +1078,9 @@ body {
   }
 
   .project-text p {
-    font-size: 0.9rem; /* Reduce paragraph text size */
+    font-size: 0.7rem; /* Reduce paragraph text size */
     margin-bottom: 5px; /* Reduce spacing */
+    align-items: center;
   }
 
   .project-text span {
@@ -1190,13 +1200,26 @@ body {
     background-color: #F5F0E1; /* Match the project section background */
   }
 
-  .usp h2 {
+  .usp-header h2 {
     font-size: 1.5rem; /* Adjust heading size to match project section */
     transform: translateX(+10px); /* Align with the project section heading style */
     margin-bottom: 15px; /* Reduce spacing below header */
   }
 
-  .usp h2::after {
+  .usp-header h2::after {
+    width: 30px; /* Adjust line width to match heading */
+    height: 3px; /* Adjust line thickness */
+    margin-top: 3px; /* Match spacing between text and line */
+  }
+
+  .project-header h2 {
+    font-size: 1.5rem; /* Adjust heading size to match project section */
+    transform: translateX(+10px); /* Align with the project section heading style */
+    margin-bottom: 15px; /* Reduce spacing below header */
+    align-items: center;
+  }
+
+  .project-header h2::after {
     width: 30px; /* Adjust line width to match heading */
     height: 3px; /* Adjust line thickness */
     margin-top: 3px; /* Match spacing between text and line */
