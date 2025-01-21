@@ -254,14 +254,14 @@
   .box h3 {
     font-size: 12px; /* Smaller font size */
     margin-top: 5px; /* Reduce margin */
-    transform: translateY(-70px); /* Move heading to the top */
+    transform: translateY(-63px); /* Move heading to the top */
     position: relative; /* Ensure proper stacking context */
     z-index: 1; /* Ensure heading appears above other content */
   }
   .box2 h3 {
     font-size: 12px; /* Smaller font size */
     margin-top: 5px; /* Reduce margin */
-    transform: translateY(-130px); /* Move heading to the top */
+    transform: translateY(-120px); /* Move heading to the top */
     position: relative; /* Ensure proper stacking context */
     z-index: 1; /* Ensure heading appears above other content */
   }

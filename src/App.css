@@ -352,7 +352,7 @@ body {
 }
 
 .projects h2 {
-  transform: translateX(+2px);
+  transform: translateX(+20px);
   position: relative; /* Position relative to add the custom line */
   margin-top: 0; /* Remove unnecessary space above */
   margin-bottom: 20px; /* Add spacing below the header */
@@ -894,6 +894,7 @@ body {
 @media only screen and (max-width: 430px) and (max-height: 932px) {
   .container {
     padding: 10px; /* Adjust padding for smaller screens */
+    width: 90%;
   }
 
   .hero-content h1 {
