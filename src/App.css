@@ -592,6 +592,8 @@ body {
 .appimage img {
   margin-left: 20px;
   height: 70%;
+  width: 50%;
+
   border-radius: 8px;
   transform: translateX(+45px);
 }
@@ -907,8 +909,8 @@ body {
   }
 
   .hero-image img {
-    transform: translateX(-350px);
     z-index: -1; /* Move image behind text */
+
   }
 
   .footer {
@@ -1012,8 +1014,9 @@ body {
 }
 
 .hero-image img {
-  transform: translateX(-350px);
+  transform: translateX(-250px);
   z-index: -1; /* Move image behind text */
+  object-fit: cover;
 }
 
 }
@@ -1124,8 +1127,10 @@ body {
   }
 
   .appimage img {
-      transform: translateX(-15px);
+    transform: translateX(-20px);
       z-index: -1; /* Move image behind text */
+      object-fit: cover;
+      width: 100%;
     }
 }
 
@@ -1186,7 +1191,7 @@ body {
 
   .usp h2 {
     font-size: 1.5rem; /* Adjust heading size to match project section */
-    transform: translateX(-40px); /* Align with the project section heading style */
+    transform: translateX(+10px); /* Align with the project section heading style */
     margin-bottom: 15px; /* Reduce spacing below header */
   }
 
