@@ -95,6 +95,7 @@
   .menu {
     flex: 1;
     justify-content: space-around; /* Spread menu items evenly */
+    object-fit: contain;
     transform: none;
     gap: 10px; /* Adjust gap for menu items */
   }
