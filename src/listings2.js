@@ -49,7 +49,7 @@ const Listing2 = () => {
     console.log("Filters applied:", filters);
 
     try {
-      const response = await fetch("https://finale-aarvasa-bckend.vercel.app/filter", {
+      const response = await fetch("http://localhost:8000/filter", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
