@@ -711,7 +711,8 @@ a {
   .menu-container {
     flex-direction: row; /* Stack items vertically */
     padding: 10px; /* Adjust padding for smaller space */
-    width: 90%;
+    width: 85%;
+    transform: translateX(-5px);
     border-radius: 25px; /* Reduce border radius for smaller design */
   }
 }

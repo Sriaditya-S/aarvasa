@@ -107,7 +107,7 @@ function W() {
       range: parseFloat(r),
     };
     try {
-      const response = await fetch("http://localhost:8000/get_within_range", {
+      const response = await fetch("https://finale-aarvasa-bckend.vercel.app/get_within_range", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(requestData),
